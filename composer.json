@@ -9,6 +9,12 @@
     ],
     "type": "library",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/EvgnEkb/specs"
+        }
+    ],
     "authors": [
         {
             "name": "Avtocod",
@@ -19,7 +25,7 @@
         "php": "^8.0.2",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "avtocod/specs": "~3.70",
+        "avtocod/specs": "dev-add-insurance-event-probability-score-source",
         "illuminate/support": "~9.0 || ~10.0"
     },
     "require-dev": {
